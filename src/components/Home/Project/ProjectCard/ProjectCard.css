@@ -1,138 +1,141 @@
 .projectCard {
-    display: flex;
-    gap: 3.5vmax;
-    padding: 2vmax;
-    background-color: white;
-    height: max-content;
-    border-radius: 1.7rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  display: flex;
+  gap: 3.5vmax;
+  padding: 2vmax;
+  background-color: white;
+  height: max-content;
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .projectCard > div:first-child {
-    background-color: hsla(0,0%,46%,.2);
-    border-radius: 1.7rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
-    height: 20rem;
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 60%;
+  background-color: hsla(0, 0%, 46%, 0.2);
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 20rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 60%;
 }
 
 .projectCard > div:first-child > a > img {
-    width: 100%;
-    height: auto;
-    transform: translateY(0%);
-    transition: transform 10s ease-in-out 0s;
+  width: 100%;
+  height: auto;
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
 }
 
 .projectCard > div:first-child:hover > a > img:hover {
-    transform: translateY(-85%);
+  transform: translateY(-85%);
 }
 
 .projectCard > div:last-child {
-    width: 40%;
-    display: flex;
-    height: max-content;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5vmax;
+  width: 40%;
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmax;
 }
 
 .projectCard > div:last-child > h3 {
-    font-weight: 900;
-    font-size: 2.2vmax;
-    text-shadow: 0 0 0.5vmax red;
-    font-family: "Permanent Marker", cursive;
+  font-weight: 900;
+  font-size: 2.2vmax;
+  text-shadow: 0 0 0.5vmax red;
+  font-family: "Permanent Marker", cursive;
 }
 
 .projectCard > div:last-child > h3 > span {
-    text-shadow: none;
-    font-size: 1.1vmax;
-    margin-left: 0.6vmax;
-    font-family: "Indie Flower", cursive;
-    font-weight: 700;
+  text-shadow: none;
+  font-size: 1.1vmax;
+  margin-left: 0.6vmax;
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
 }
 
 .projectCard > div:last-child > p {
-    text-align: center;
-    font-family: "Indie Flower", cursive;
-    font-weight: 700;
-    width: 100%;
-    overflow: hidden;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  width: 100%;
+  overflow: hidden;
 }
 
 .tech {
-    display: flex;
-    gap: 1.5vmax;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 1.5vmax;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech > p {
-    padding: 1vmax 2vmax;
-    border-radius: 1.7rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  padding: 1vmax 2vmax;
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .link {
-    display: flex;
-    gap: 6vmax;
-    margin-top: 1vmax;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  margin-top: 1vmax;
 }
 
 .link > a {
-    text-decoration: none;
-    color: black;
-    transition: all 0.5s;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
 }
 
 .link > a:hover {
-    color: #af0c0c;
+  color: #af0c0c;
 }
 
 .link > a > div {
-    display: flex;
-    gap: 0.5vmax;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 0.5vmax;
+  justify-content: center;
+  align-items: center;
 }
 
 .link > a > div > p {
-    font-size: 1.3vmax;
+  font-size: 1.3vmax;
 }
 
 .link > a > div > svg {
-    font-size: 1.5vmax;
+  font-size: 1.5vmax;
 }
 
 @media screen and (max-width: 1050px) {
-    .projectCard {
-        flex-direction: column;
-    }
+  .projectCard {
+    flex-direction: column;
+  }
 
-    .projectCard > div:first-child,
-    .projectCard > div:last-child
-     {
-        width: 100%;
-    }
+  .projectCard > div:first-child {
+    width: 100%;
+  }
 
-    .projectCard > div:last-child > h3 {
-        font-size: 2.8vmax;
-    }
+  .projectCard > div:last-child {
+    width: 80%;
+  }
 
-    .projectCard > div:last-child > h3 > span,
-    .projectCard > div:last-child > p {
-        font-size: 2.2vmax;
-    }
+  .projectCard > div:last-child > h3 {
+    font-size: 2.8vmax;
+  }
 
-    .link > a > div > p {
-        font-size: 1.8vmax;
-    }
+  .projectCard > div:last-child > h3 > span,
+  .projectCard > div:last-child > p {
+    font-size: 2.2vmax;
+  }
 
-    .link > a > div > svg {
-        font-size: 2.2vmax;
-    }
+  .link > a > div > p {
+    font-size: 1.8vmax;
+  }
+
+  .link > a > div > svg {
+    font-size: 2.2vmax;
+  }
 }
