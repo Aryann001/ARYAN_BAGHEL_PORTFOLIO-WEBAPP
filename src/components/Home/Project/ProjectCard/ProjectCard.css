@@ -114,11 +114,12 @@
     flex-direction: column;
   }
 
-  .projectCard > div:first-child {
+  .projectCard > div:first-child,
+  .projectCard > div:last-child {
     width: 100%;
   }
 
-  .projectCard > div:last-child {
+  .projectCard > div:last-child > p {
     width: 80%;
   }
 
