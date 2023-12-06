@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.hero {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 63%);
+}
+
+#videoBg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-top: 3vmax;
+}
+
+.heroContainer {
+  display: flex;
+  gap: 3vmax;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContainer > div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
+
+.heroContainer > div:first-child {
+  gap: 3.3vmax;
+}
+
+.heroContainer > div:first-child > h1 {
+  text-shadow: 0 0 0.7vmax red;
+  font-size: 3.3vmax;
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.heroContainer > div:first-child > p {
+  color: silver;
+  text-shadow: 0 0 0.5vmax red;
+  font-size: 1.8vmax;
+  font-family: "Indie Flower", cursive;
+}
+
+.heroContainer > div:first-child > div {
+  display: flex;
+  align-items: center;
+  gap: 1.5vmax;
+}
+
+.heroContainer > div:first-child > div > div > a {
+  text-decoration: none;
+  color: silver;
+  transition: all 0.5s;
+}
+
+.heroContainer > div:first-child > div > div > a:hover {
+  color: #af0c0c;
+}
+
+.heroContainer > div:first-child > div > div > a > svg {
+  font-size: 2.5vmax;
+  filter: drop-shadow(0 0 0.3vmax red);
+}
+
+.heroContainer > div:last-child > div {
+  width: 100%;
+  height: 100%;
+}
+
+.heroContainer > div:last-child > div > img {
+  width: 100%;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  animation: animate 8s ease-in-out infinite;
+  border: 2px solid black;
+  box-shadow: 0 0 0.2vmax red;
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .heroContainer {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .heroContainer > div {
+    width: 60%;
+  }
+
+  .heroContainer > div:first-child {
+    align-items: center;
+  }
+
+  .heroContainer > div:first-child > h1 {
+    font-size: 3vmax;
+    text-align: center;
+  }
+
+  .heroContainer > div:first-child > p {
+    font-size: 2.2vmax;
+    text-align: center;
+  }
+
+  .heroContainer > div:first-child > div > div > a > svg {
+    font-size: 4vmax;
+  }
+}

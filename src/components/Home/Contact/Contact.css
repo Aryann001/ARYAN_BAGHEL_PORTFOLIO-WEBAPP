@@ -1,0 +1,106 @@
+.contacth {
+  width: 100vw;
+  max-width: 100%;
+  background-color: white;
+}
+
+.contacth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.8vmax 12.2vmax;
+}
+
+.contactContainerh {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4vmax;
+}
+
+.cch-1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vmax;
+}
+
+.cch-1-1 > p {
+  font-weight: 700;
+  color: black;
+  text-shadow: 0 0 0.5vmax red;
+}
+
+.cch-1-1 > h3 {
+  font-weight: 900;
+  font-size: 2.2vmax;
+  text-shadow: 0 0 0.5vmax red;
+}
+
+.cch-2 {
+  display: flex;
+  gap: 8vmax;
+}
+
+.cch-2 > div {
+  display: flex;
+  gap: 1.6vmax;
+}
+
+.cch-2 > div > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cch-2 > div > div:first-child > svg {
+  font-size: 3vmax;
+  color: #af0c0c;
+}
+
+.cch-2 > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vmax;
+}
+
+.cch-2 > div > div:last-child > h3 {
+  font-weight: bolder;
+  text-shadow: 0 0 0.5vmax red;
+}
+
+.cch-2 > div > div:last-child > p {
+  color: black;
+  border-left: 2px solid #af0c0c;
+  padding-left: 1vmax;
+}
+
+@media screen and (max-width: 1050px) {
+  .contacth > div {
+    padding: 5.8vmax;
+  }
+
+  .cch-1-1 {
+    text-align: center;
+  }
+
+  .cch-2 > div,
+  .cch-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cch-1-1 > p,
+  .cch-2 > div > div:last-child > p {
+    border-left: none;
+    font-size: 2.2vmax;
+  }
+
+  .cch-1-1 > h3,
+  .cch-2 > div > div:last-child > h3 {
+    font-size: 2.8vmax;
+  }
+
+  .cch-2 > div > div:first-child > svg {
+    font-size: 4vmax;
+  }
+}

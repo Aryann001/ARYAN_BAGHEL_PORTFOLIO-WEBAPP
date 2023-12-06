@@ -1,0 +1,109 @@
+.about {
+    width: 100vw;
+    max-width: 100%;
+}
+
+.about > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.8vmax 12.2vmax;
+}
+
+.aboutContainer {
+    display: flex;
+    gap: 3vmax;
+    width: 100%;
+}
+
+.aboutContainer > div {
+    width: 50%;
+}
+
+.ac-1 > div {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+
+.ac-1 > div > img {
+    width: 100%;
+    border-radius: 1.2vmax;
+}
+
+.ac-1 > div > svg {
+    position: absolute;
+    bottom: -2vmax;
+    right: -2vmax;
+    background: white;
+    padding: 4vmax;
+    border-radius: 100%;
+    font-size: 5vmax;
+}
+
+.ac-1 > div > div {
+    position: absolute;
+    bottom: -2vmax;
+    right: -2vmax;
+    padding: 0 0.5vmax;
+}
+
+.ac-1 > div > div > img {
+    width: 12vmax;
+    animation: rotate 10s linear infinite;
+}
+
+.ac-2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.ac-2 > div > h3 {
+    font-weight: 900;
+    text-shadow: 0 0 0.5vmax red;
+    font-size: 1.5vmax;
+}
+
+.ac-2 > div > h2 {
+    font-size: 1.8vmax;
+}
+
+.ac-2 > div > p {
+    color: #767676;
+    font-size: 1.2vmax;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .about > div  {
+        padding: 5.8vmax;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+    }
+
+    .aboutContainer > div {
+        width: 100%;
+    }
+
+    .ac-2 > div > h3 {
+        font-size: 2.8vmax;
+    }
+
+    .ac-2 > div > h2 {
+        font-size: 3.3vmax;
+    }
+
+    .ac-2 > div > p {
+        font-size: 2.2vmax;
+    }
+}

@@ -1,0 +1,6 @@
+.viewProjects {
+    display: flex;
+    flex-direction: column;
+    gap: 4vmax;
+    padding: 8vmax 10vmax;
+}
