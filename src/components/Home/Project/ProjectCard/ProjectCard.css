@@ -60,6 +60,7 @@
   font-weight: 700;
   width: 100%;
   overflow: hidden;
+  color: #5e5e5e;
 }
 
 .tech {
@@ -127,7 +128,10 @@
     font-size: 2.8vmax;
   }
 
-  .projectCard > div:last-child > h3 > span,
+  .projectCard > div:last-child > h3 > span {
+    font-size: 1.8vmax;
+  }
+
   .projectCard > div:last-child > p {
     font-size: 2.2vmax;
   }
