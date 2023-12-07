@@ -56,7 +56,7 @@
 .heroContainer > div:first-child > h1 {
   text-shadow: 0 0 0.7vmax red;
   font-size: 3.3vmax;
-  font-family: "Permanent Marker", cursive;
+  font-family: math;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -64,8 +64,8 @@
 .heroContainer > div:first-child > p {
   color: silver;
   text-shadow: 0 0 0.5vmax red;
-  font-size: 1.8vmax;
-  font-family: "Indie Flower", cursive;
+  font-size: 1.6vmax;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .heroContainer > div:first-child > div {
@@ -129,12 +129,12 @@
   }
 
   .heroContainer > div:first-child > h1 {
-    font-size: 3vmax;
+    font-size: 3.3vmax;
     text-align: center;
   }
 
   .heroContainer > div:first-child > p {
-    font-size: 2.2vmax;
+    font-size: 2vmax;
     text-align: center;
   }
 

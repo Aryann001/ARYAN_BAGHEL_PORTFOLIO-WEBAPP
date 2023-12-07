@@ -41,9 +41,8 @@
 
 .projectCard > div:last-child > h3 {
   font-weight: 900;
-  font-size: 2.2vmax;
+  font-size: 1.8vmax;
   text-shadow: 0 0 0.5vmax red;
-  font-family: "Permanent Marker", cursive;
 }
 
 .projectCard > div:last-child > h3 > span {
@@ -56,8 +55,9 @@
 
 .projectCard > div:last-child > p {
   text-align: center;
-  font-family: "Indie Flower", cursive;
-  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vmax;
+  font-weight: 300;
   width: 100%;
   overflow: hidden;
   color: #767676;
@@ -125,7 +125,7 @@
   }
 
   .projectCard > div:last-child > h3 {
-    font-size: 2.8vmax;
+    font-size: 2.2vmax;
   }
 
   .projectCard > div:last-child > h3 > span {
@@ -133,7 +133,7 @@
   }
 
   .projectCard > div:last-child > p {
-    font-size: 2.2vmax;
+    font-size: 1.8vmax;
   }
 
   .link > a > div > p {
