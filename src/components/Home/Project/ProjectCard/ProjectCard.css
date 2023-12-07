@@ -26,7 +26,7 @@
 }
 
 .projectCard > div:first-child:hover > a > img:hover {
-  transform: translateY(-80%);
+  transform: translateY(-70%);
 }
 
 .projectCard > div:last-child {
