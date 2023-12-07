@@ -143,4 +143,8 @@
   .link > a > div > svg {
     font-size: 2.2vmax;
   }
+
+  .projectCard > div:first-child:hover > a > img:hover {
+    transform: translateY(-45%);
+  }
 }
