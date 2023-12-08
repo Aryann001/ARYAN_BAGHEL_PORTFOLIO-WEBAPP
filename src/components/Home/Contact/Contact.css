@@ -68,9 +68,14 @@
 }
 
 .cch-2 > div > div:last-child > p {
-  color: black;
+  color: #767676;
   border-left: 2px solid #147efb;
   padding-left: 1vmax;
+  font-size: 1.5vmax;
+}
+
+.cch-2 > div > div:last-child > p:hover {
+  color: #147efb;
 }
 
 @media screen and (max-width: 1050px) {
