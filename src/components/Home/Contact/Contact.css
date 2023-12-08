@@ -72,6 +72,8 @@
   border-left: 2px solid #147efb;
   padding-left: 1vmax;
   font-size: 1.5vmax;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .cch-2 > div > div:last-child > p:hover {
