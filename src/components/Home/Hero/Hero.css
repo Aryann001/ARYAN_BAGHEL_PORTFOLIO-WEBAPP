@@ -124,6 +124,7 @@
 
   .heroContainer > div:first-child {
     align-items: center;
+    width: 80% !important;
   }
 
   .heroContainer > div:first-child > h1 {
