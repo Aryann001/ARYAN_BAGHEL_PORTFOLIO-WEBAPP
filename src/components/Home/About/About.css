@@ -62,7 +62,7 @@
 
 .ac-2 > div > h3 {
     font-weight: 900;
-    text-shadow: 0 0 0.5vmax red;
+    color: #147efb;
     font-size: 1.5vmax;
 }
 

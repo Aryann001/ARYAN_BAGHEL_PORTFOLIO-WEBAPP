@@ -41,16 +41,17 @@
 
 .projectCard > div:last-child > h3 {
   font-weight: 900;
-  font-size: 1.8vmax;
-  text-shadow: 0 0 0.5vmax red;
+  font-size: 1.5vmax;
+  color: #2d2e32;
 }
 
 .projectCard > div:last-child > h3 > span {
   text-shadow: none;
-  font-size: 1.1vmax;
+  font-size: 1.05vmax;
   margin-left: 0.6vmax;
   font-family: "Indie Flower", cursive;
   font-weight: 700;
+  color: hsla(0,5%,8%,.773);
 }
 
 .projectCard > div:last-child > p {
@@ -92,7 +93,7 @@
 }
 
 .link > a:hover {
-  color: #af0c0c;
+  color: #147efb;
 }
 
 .link > a > div {

@@ -26,14 +26,13 @@
 
 .cch-1-1 > p {
   font-weight: 700;
-  color: black;
-  text-shadow: 0 0 0.5vmax red;
+  color: #147efb;
 }
 
 .cch-1-1 > h3 {
   font-weight: 900;
   font-size: 2.2vmax;
-  text-shadow: 0 0 0.5vmax red;
+  color: #2d2e32;
 }
 
 .cch-2 {
@@ -54,7 +53,7 @@
 
 .cch-2 > div > div:first-child > svg {
   font-size: 3vmax;
-  color: #af0c0c;
+  color: #147efb;
 }
 
 .cch-2 > div > div:last-child {
@@ -65,12 +64,12 @@
 
 .cch-2 > div > div:last-child > h3 {
   font-weight: bolder;
-  text-shadow: 0 0 0.5vmax red;
+  color: #2d2e32;
 }
 
 .cch-2 > div > div:last-child > p {
   color: black;
-  border-left: 2px solid #af0c0c;
+  border-left: 2px solid #147efb;
   padding-left: 1vmax;
 }
 
