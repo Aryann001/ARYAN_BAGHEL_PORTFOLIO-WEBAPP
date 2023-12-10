@@ -22,7 +22,7 @@ const Hero = ({image}) => {
             </p>
             <div>
               <div>
-                <Link to="www.linkedin.com/in/aryan-baghel">
+                <Link to="https://www.linkedin.com/in/aryan-baghel/">
                   <PiLinkedinLogoBold />
                 </Link>
               </div>
