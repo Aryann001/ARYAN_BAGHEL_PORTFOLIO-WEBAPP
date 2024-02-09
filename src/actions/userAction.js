@@ -142,6 +142,7 @@ export const createProject = (projectData) => async (dispatch) => {
       `${server}/admin/project/create`,
       projectData,
       {
+        Access-Control-Allow-Origin: *,
         withCredentials: true,
         headers: {
           "Content-Type": "multipart/form-data",
